@@ -20,7 +20,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
         <>
             <ul>
                 <li onClick={(e) => selectCategory(e, "")}>
-                    <a>All</a>
+                    <a>All</p>
                 </li>
                 <li onClick={(e) => selectCategory(e, "jeans")}>
                     <a>
@@ -29,7 +29,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Milks & Dairies
-                    </a>
+                    </p>
                     <span className="count">30</span>
                 </li>
                 <li onClick={(e) => selectCategory(e, "shoe")}>
@@ -39,7 +39,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Clothing
-                    </a>
+                    </p>
                     <span className="count">35</span>
                 </li>
                 <li onClick={(e) => selectCategory(e, "jacket")}>
@@ -49,7 +49,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Pet Foods{" "}
-                    </a>
+                    </p>
                     <span className="count">42</span>
                 </li>                
             </ul>

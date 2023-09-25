@@ -48,7 +48,7 @@ const SingleProduct = ({
                                     src={product.images[1].img}
                                     alt=""
                                 />
-                            </a>
+                            </p>
                         </Link>
                     </div>
                     <div className="product-action-1">
@@ -59,21 +59,21 @@ const SingleProduct = ({
                             onClick={(e) => openQuickView(product)}
                         >
                             <i className="fi-rs-eye"></i>
-                        </a>
+                        </p>
                         <a
                             aria-label="Add To Wishlist"
                             className="action-btn hover-up"
                             onClick={(e) => handleWishlist(product)}
                         >
                             <i className="fi-rs-heart"></i>
-                        </a>
+                        </p>
                         <a
                             aria-label="Compare"
                             className="action-btn hover-up"
                             onClick={(e) => handleCompare(product)}
                         >
                             <i className="fi-rs-shuffle"></i>
-                        </a>
+                        </p>
                     </div>
 
                     <div className="product-badges product-badges-position product-badges-mrg">
@@ -95,7 +95,7 @@ const SingleProduct = ({
                 <div className="product-content-wrap">
                     <div className="product-category">
                         <Link href="/products">
-                            <a>{product.brand}</a>
+                            <a>{product.brand}</p>
                         </Link>
                     </div>
                     <h2>
@@ -103,7 +103,7 @@ const SingleProduct = ({
                             href="/products/[slug]"
                             as={`/products/${product.slug}`}
                         >
-                            <a>{product.title}</a>
+                            <a>{product.title}</p>
                         </Link>
                     </h2>
 
@@ -122,7 +122,7 @@ const SingleProduct = ({
 
                     <div>
                         <span className="font-small text-muted">
-                            By <Link href="/vendor/1"><a>NestFood</a></Link>
+                            By <Link href="/vendor/1"><a>NestFood</p></Link>
                         </span>
                     </div>
 
@@ -137,7 +137,7 @@ const SingleProduct = ({
                                 onClick={(e) => handleCart(product)}
                             >
                                 <i className="fi-rs-shopping-cart mr-5"></i> Add
-                            </a>
+                            </p>
                         </div>
                     </div>
                 </div>

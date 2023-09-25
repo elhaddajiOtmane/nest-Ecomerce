@@ -47,7 +47,7 @@ const SingleProduct2 = ({
                                     src={product.images[1].img}
                                     alt=""
                                 />
-                            </a>
+                            </p>
                         </Link>
                     </div>
                     <div className="product-action-1">
@@ -59,21 +59,21 @@ const SingleProduct2 = ({
                             onClick={(e) => openQuickView(product)}
                         >
                             <i className="fi-rs-eye"></i>
-                        </a>
+                        </p>
                         <a
                             aria-label="Add To Wishlist"
                             className="action-btn hover-up"
                             onClick={(e) => handleWishlist(product)}
                         >
                             <i className="fi-rs-heart"></i>
-                        </a>
+                        </p>
                         <a
                             aria-label="Compare"
                             className="action-btn hover-up"
                             onClick={(e) => handleCompare(product)}
                         >
                             <i className="fi-rs-shuffle"></i>
-                        </a>
+                        </p>
                     </div>
 
                     <div className="product-badges product-badges-position product-badges-mrg">
@@ -95,12 +95,12 @@ const SingleProduct2 = ({
                 <div className="product-content-wrap">
                     <div className="product-category">
                         <Link href="/products">
-                            <a>{product.brand}</a>
+                            <a>{product.brand}</p>
                         </Link>
                     </div>
                     <h2>
                         <Link href="/products/[slug]" as={`/products/${product.slug}`}>
-                            <a>{product.title}</a>
+                            <a>{product.title}</p>
                         </Link>
                     </h2>
 
@@ -131,7 +131,7 @@ const SingleProduct2 = ({
                         onClick={(e) => handleCart(product)}
                     >
                         <i className="fi-rs-shopping-cart mr-5"></i> Add To Cart
-                    </a>
+                    </p>
                 </div>
             </div>
         </>

@@ -45,7 +45,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/logo.svg"
                                         alt="logo"
                                     />
-                                </a>
+                                </p>
                             </Link>
                         </div>
                         <div className="mobile-menu-close close-style-wrap close-style-position-inherit">
@@ -76,7 +76,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                     <a className="categori-button-active-2">
                                         <span className="fi-rs-apps"></span> Browse
                                         Categories
-                                    </a>
+                                    </p>
                                 </Link>
                                 <div className="categori-dropdown-wrap categori-dropdown-active-small">
                                     <ul>
@@ -85,7 +85,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-dress"></i>
                                                     Women's Clothing
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -93,7 +93,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-tshirt"></i>
                                                     Men's Clothing
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -102,7 +102,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-smartphone"></i>{" "}
                                                     Cellphones
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -110,7 +110,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-desktop"></i>
                                                     Computer & Office
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -118,7 +118,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-cpu"></i>
                                                     Consumer Electronics
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -126,7 +126,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-home"></i>
                                                     Home & Garden
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -134,7 +134,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-high-heels"></i>
                                                     Shoes
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -142,7 +142,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-teddy-bear"></i>
                                                     Mother & Kids
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                         <li>
@@ -150,7 +150,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                 <a>
                                                     <i className="evara-font-kite"></i>
                                                     Outdoor fun
-                                                </a>
+                                                </p>
                                             </Link>
                                         </li>
                                     </ul>
@@ -173,7 +173,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                         <Link href="/index">
-                                            <a>Home</a>
+                                            <a>Home</p>
                                         </Link>
                                         <ul
                                             className={
@@ -184,22 +184,22 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         >
                                             <li>
                                                 <Link href="/index">
-                                                    <a>Home 1</a>
+                                                    <a>Home 1</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/index-2">
-                                                    <a>Home 2</a>
+                                                    <a>Home 2</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/index-3">
-                                                    <a>Home 3</a>
+                                                    <a>Home 3</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/index-4">
-                                                    <a>Home 4</a>
+                                                    <a>Home 4</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -218,7 +218,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                        <Link href="/shop-grid-right">
-                                            <a>shop</a>
+                                            <a>shop</p>
                                         </Link>
                                         <ul
                                             className={
@@ -232,14 +232,14 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                     <a>
                                                         Shop Grid – Right
                                                         Sidebar
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-grid-left">
                                                     <a>
                                                         Shop Grid – Left Sidebar
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                             </li>
                                             <li>
@@ -247,44 +247,44 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                     <a>
                                                         Shop List – Right
                                                         Sidebar
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-list-left">
                                                     <a>
                                                         Shop List – Left Sidebar
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-fullwidth">
-                                                    <a>Shop - Wide</a>
+                                                    <a>Shop - Wide</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-filter">
-                                                    <a>Shop – Filter</a>
+                                                    <a>Shop – Filter</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-wishlist">
-                                                    <a>Shop – Wishlist</a>
+                                                    <a>Shop – Wishlist</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-cart">
-                                                    <a>Shop – Cart</a>
+                                                    <a>Shop – Cart</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-checkout">
-                                                    <a>Shop – Checkout</a>
+                                                    <a>Shop – Checkout</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/shop-compare">
-                                                    <a>Shop – Compare</a>
+                                                    <a>Shop – Compare</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -303,7 +303,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                         <Link href="#">
-                                            <a>Mega menu</a>
+                                            <a>Mega menu</p>
                                         </Link>
                                         <ul
                                             className={
@@ -315,19 +315,19 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <li className="menu-item-has-children">
                                                 <span className="menu-expand"></span>
                                                 <Link href="#">
-                                                    <a>Women's Fashion</a>
+                                                    <a>Women's Fashion</p>
                                                 </Link>
                                                 <ul className="dropdown">
                                                     <li>
                                                         <Link href="/shop-product-right">
-                                                            <a>Dresses</a>
+                                                            <a>Dresses</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-product-right">
                                                             <a>
                                                                 Blouses & Shirts
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -335,12 +335,12 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                             <a>
                                                                 Hoodies &
                                                                 Sweatshirts
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-product-right">
-                                                            <a>Women's Sets</a>
+                                                            <a>Women's Sets</p>
                                                         </Link>
                                                     </li>
                                                 </ul>
@@ -348,12 +348,12 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <li className="menu-item-has-children">
                                                 <span className="menu-expand"></span>
                                                 <Link href="#">
-                                                    <a>Men's Fashion</a>
+                                                    <a>Men's Fashion</p>
                                                 </Link>
                                                 <ul className="dropdown">
                                                     <li>
                                                         <Link href="/shop-product-right">
-                                                            <a>Jackets</a>
+                                                            <a>Jackets</p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -361,14 +361,14 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                             <a>
                                                                 Casual Faux
                                                                 Leather
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-product-right">
                                                             <a>
                                                                 Genuine Leather
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                 </ul>
@@ -376,14 +376,14 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <li className="menu-item-has-children">
                                                 <span className="menu-expand"></span>
                                                 <Link href="#">
-                                                    <a>Technology</a>
+                                                    <a>Technology</p>
                                                 </Link>
                                                 <ul className="dropdown">
                                                     <li>
                                                         <Link href="/shop-product-right">
                                                             <a>
                                                                 Gaming Laptops
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -391,12 +391,12 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                             <a>
                                                                 Ultraslim
                                                                 Laptops
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-product-right">
-                                                            <a>Tablets</a>
+                                                            <a>Tablets</p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -404,7 +404,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                             <a>
                                                                 Laptop
                                                                 Accessories
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -412,7 +412,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                             <a>
                                                                 Tablet
                                                                 Accessories
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                 </ul>
@@ -433,7 +433,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                         <Link href="/blog-category-fullwidth">
-                                            <a>Blog</a>
+                                            <a>Blog</p>
                                         </Link>
                                         <ul
                                             className={
@@ -444,43 +444,43 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         >
                                             <li>
                                                 <Link href="/blog-category-grid">
-                                                    <a>Blog Category Grid</a>
+                                                    <a>Blog Category Grid</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/blog-category-list">
-                                                    <a>Blog Category List</a>
+                                                    <a>Blog Category List</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/blog-category-big">
-                                                    <a>Blog Category Big</a>
+                                                    <a>Blog Category Big</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/blog-category-fullwidth">
-                                                    <a>Blog Category Wide</a>
+                                                    <a>Blog Category Wide</p>
                                                 </Link>
                                             </li>
                                             <li className="menu-item-has-children">
                                                 <span className="menu-expand"></span>
                                                 <Link href="#">
-                                                    <a>Single Product Layout</a>
+                                                    <a>Single Product Layout</p>
                                                 </Link>
                                                 <ul className="dropdown">
                                                     <li>
                                                         <Link href="/blog-post-left">
-                                                            <a>Left Sidebar</a>
+                                                            <a>Left Sidebar</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/blog-post-right">
-                                                            <a>Right Sidebar</a>
+                                                            <a>Right Sidebar</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/blog-post-fullwidth">
-                                                            <a>No Sidebar</a>
+                                                            <a>No Sidebar</p>
                                                         </Link>
                                                     </li>
                                                 </ul>
@@ -501,7 +501,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                         <Link href="#">
-                                            <a>Pages</a>
+                                            <a>Pages</p>
                                         </Link>
                                         <ul
                                             className={
@@ -512,42 +512,42 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         >
                                             <li>
                                                 <Link href="/page-about">
-                                                    <a>About Us</a>
+                                                    <a>About Us</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-contact">
-                                                    <a>Contact</a>
+                                                    <a>Contact</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-account">
-                                                    <a>My Account</a>
+                                                    <a>My Account</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-login-register">
-                                                    <a>login/register</a>
+                                                    <a>login/register</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-purchase-guide">
-                                                    <a>Purchase Guide</a>
+                                                    <a>Purchase Guide</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-privacy-policy">
-                                                    <a>Privacy Policy</a>
+                                                    <a>Privacy Policy</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-terms">
-                                                    <a>Terms of Service</a>
+                                                    <a>Terms of Service</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/page-404">
-                                                    <a>404 Page</a>
+                                                    <a>404 Page</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -566,7 +566,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             <i className="fi-rs-angle-small-down"></i>
                                         </span>
                                         <Link href="#">
-                                            <a>Language</a>
+                                            <a>Language</p>
                                         </Link>
                                         <ul
                                             className={
@@ -577,22 +577,22 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         >
                                             <li>
                                                 <Link href="#">
-                                                    <a>English</a>
+                                                    <a>English</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    <a>French</a>
+                                                    <a>French</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    <a>German</a>
+                                                    <a>German</p>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    <a>Spanish</a>
+                                                    <a>Spanish</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -603,17 +603,17 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                         <div className="mobile-header-info-wrap mobile-header-border">
                             <div className="single-mobile-header-info mt-30">
                                 <Link href="/page-contact">
-                                    <a> Our location </a>
+                                    <a> Our location </p>
                                 </Link>
                             </div>
                             <div className="single-mobile-header-info">
                                 <Link href="/page-login-register">
-                                    <a>Log In / Sign Up </a>
+                                    <a>Log In / Sign Up </p>
                                 </Link>
                             </div>
                             <div className="single-mobile-header-info">
                                 <Link href="#">
-                                    <a>(+01) - 2345 - 6789 </a>
+                                    <a>(+01) - 2345 - 6789 </p>
                                 </Link>
                             </div>
                         </div>
@@ -625,7 +625,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/icons/icon-facebook.svg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                             <Link href="#">
                                 <a>
@@ -633,7 +633,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/icons/icon-twitter.svg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                             <Link href="#">
                                 <a>
@@ -641,7 +641,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/icons/icon-instagram.svg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                             <Link href="#">
                                 <a>
@@ -649,7 +649,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/icons/icon-pinterest.svg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                             <Link href="#">
                                 <a>
@@ -657,7 +657,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         src="/assets/imgs/theme/icons/icon-youtube.svg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                         </div>
                     </div>

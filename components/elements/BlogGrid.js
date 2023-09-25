@@ -159,13 +159,13 @@ const BlogGrid = ({ show, wide }) => {
                                     src={`/assets/imgs/blog/${item.img}`}
                                     alt=""
                                 />
-                            </a>
+                            </p>
                         </Link>
                         <div className="entry-meta">
                             <Link href="/blog-category-grid">
                                 <a className="entry-meta meta-2">
                                     <i className="fi-rs-heart"></i>
-                                </a>
+                                </p>
                             </Link>
                         </div>
                     </div>
@@ -174,12 +174,12 @@ const BlogGrid = ({ show, wide }) => {
                             <Link href="/blog-category-grid">
                                 <a className="entry-meta text-muted">
                                     {item.category}
-                                </a>
+                                </p>
                             </Link>
                         </h6>
                         <h4 className="post-title mb-15">
                             <Link href="/blog-post-right">
-                                <a>{item.title}</a>
+                                <a>{item.title}</p>
                             </Link>
                         </h4>
                         <div className="entry-meta font-xs color-grey mt-10 pb-10">

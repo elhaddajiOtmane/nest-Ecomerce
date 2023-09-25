@@ -15,7 +15,7 @@ const HomeBlog = () => {
                                         src="/assets/imgs/blog/blog-2.jpg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                         </div>
                         <div className="post-content">
@@ -25,7 +25,7 @@ const HomeBlog = () => {
                                         <span className="post-in font-x-small">
                                             Fashion
                                         </span>
-                                    </a>
+                                    </p>
                                 </Link>
                             </div>
                             <h4 className="post-title mb-25 text-limit-2-row">
@@ -33,7 +33,7 @@ const HomeBlog = () => {
                                     <a>
                                         Qualcomm is developing a Nintendo
                                         Switch-like console, report says
-                                    </a>
+                                    </p>
                                 </Link>
                             </h4>
                             <div className="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
@@ -46,7 +46,7 @@ const HomeBlog = () => {
                                     </span>
                                 </div>
                                 <Link href="/blog-post-right">
-                                    <a>Read More</a>
+                                    <a>Read More</p>
                                 </Link>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const HomeBlog = () => {
                                         src="/assets/imgs/blog/blog-1.jpg"
                                         alt=""
                                     />
-                                </a>
+                                </p>
                             </Link>
                         </div>
                         <div className="post-content">
@@ -71,7 +71,7 @@ const HomeBlog = () => {
                                         <span className="post-in font-x-small">
                                             Healthy
                                         </span>
-                                    </a>
+                                    </p>
                                 </Link>
                             </div>
                             <h4 className="post-title mb-25 text-limit-2-row">
@@ -79,7 +79,7 @@ const HomeBlog = () => {
                                     <a>
                                         Not even the coronavirus can derail 5G's
                                         global momentum
-                                    </a>
+                                    </p>
                                 </Link>
                             </h4>
                             <div className="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
@@ -92,7 +92,7 @@ const HomeBlog = () => {
                                     </span>
                                 </div>
                                 <Link href="/blog-post-right">
-                                    <a>Read More</a>
+                                    <a>Read More</p>
                                 </Link>
                             </div>
                         </div>

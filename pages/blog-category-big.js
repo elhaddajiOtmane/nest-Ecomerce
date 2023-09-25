@@ -25,22 +25,22 @@ function PageBlogGridBig() {
                                             <li className="page-item">
                                                 <a className="page-link" href="#">
                                                     <i className="fi-rs-arrow-small-left"></i>
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item">
                                                 <a className="page-link" href="#">
                                                     1
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item active">
                                                 <a className="page-link" href="#">
                                                     2
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item">
                                                 <a className="page-link" href="#">
                                                     3
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item">
                                                 <a
@@ -48,17 +48,17 @@ function PageBlogGridBig() {
                                                     href="#"
                                                 >
                                                     ...
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item">
                                                 <a className="page-link" href="#">
                                                     6
-                                                </a>
+                                                </p>
                                             </li>
                                             <li className="page-item">
                                                 <a className="page-link" href="#">
                                                     <i className="fi-rs-arrow-small-right"></i>
-                                                </a>
+                                                </p>
                                             </li>
                                         </ul>
                                     </nav>

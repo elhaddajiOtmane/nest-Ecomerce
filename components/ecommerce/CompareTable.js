@@ -29,7 +29,7 @@ const CompareTable = ({ data, features, deleteFromCompare, addToCart }) => {
                             ) : feature == "name" ? (
                                 <td className="product_name">
                                     <h5>
-                                        <a href="#">{product.title}</a>
+                                        <a href="#">{product.title}</p>
                                     </h5>
                                 </td>
                             ) : feature == "price" ? (
@@ -106,7 +106,7 @@ const CompareTable = ({ data, features, deleteFromCompare, addToCart }) => {
                                     >
                                         <i className="fi-rs-trash mr-5"></i>
                                         <span>Remove</span>
-                                    </a>
+                                    </p>
                                 </td>
                             ) : null
                         )}

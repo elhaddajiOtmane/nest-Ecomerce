@@ -44,7 +44,7 @@ const Intro3 = () => {
                                     <Link href="/shop-product-right">
                                         <a className="animated btn btn-brush btn-brush-3">
                                             Shop Now
-                                        </a>
+                                        </p>
                                     </Link>
                                 </div>
                                 <div className="slider-img">
@@ -77,7 +77,7 @@ const Intro3 = () => {
                                     <Link href="/shop-product-right">
                                         <a className="animated btn btn-brush btn-brush-3">
                                             Shop Now
-                                        </a>
+                                        </p>
                                     </Link>
                                 </div>
                                 <div className="slider-img">

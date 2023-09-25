@@ -18,7 +18,7 @@ const Deals1 = ({ product, addToCart }) => {
                         <Link href="/products">
                             <a>
                                 <img src={product.discount.banner} alt="" />
-                            </a>
+                            </p>
                         </Link>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Deals1 = ({ product, addToCart }) => {
                     <div className="deals-content">
                         <h2>
                             <Link href="/products/[slug]" as={`/products/${product.slug}`}>
-                                <a>{product.title}</a>
+                                <a>{product.title}</p>
                             </Link>
                         </h2>
                         <div className="product-rate-cover">
@@ -42,7 +42,7 @@ const Deals1 = ({ product, addToCart }) => {
                             <span className="font-small text-muted">
                                 By{" "}
                                 <Link href="/vendor/1">
-                                    <a>NestFood</a>
+                                    <a>NestFood</p>
                                 </Link>
                             </span>
                         </div>
@@ -54,7 +54,7 @@ const Deals1 = ({ product, addToCart }) => {
                             <div className="add-cart">
                                 <a className="add" onClick={(e) => handleCart(product)}>
                                     <i className="fi-rs-shopping-cart mr-5"></i>Add{" "}
-                                </a>
+                                </p>
                             </div>
                         </div>
                     </div>

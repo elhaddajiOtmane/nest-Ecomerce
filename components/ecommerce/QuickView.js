@@ -16,7 +16,7 @@ const QuickView = ({ quickView, closeQuickView }) => {
             return (
                 <a>
                     <img src={images[i].src} width="75" />
-                </a>
+                </p>
             );
         },
         dots: true,

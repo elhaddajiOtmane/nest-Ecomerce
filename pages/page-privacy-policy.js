@@ -15,7 +15,7 @@ function Privacy() {
                                         <div className="padding_eight_all bg-white">
                                             <div className="heading_s1">
                                                 <h1 className="mb-5">Create an Account</h1>
-                                                <p>Already have an account? <Link href="/page-login"><a>Log in instead!</a></Link></p>
+                                                <p>Already have an account? <Link href="/page-login"><a>Log in instead!</p></Link></p>
                                             </div>
                                             <form method="post">
                                                 <div className="form-group">
@@ -58,7 +58,7 @@ function Privacy() {
                                                             <label className="form-check-label" htmlFor="exampleCheckbox12"><span>I agree to terms &amp; Policy.</span></label>
                                                         </div>
                                                     </div>
-                                                    <Link href="/page-privacy-policy"><a><i className="fi-rs-book-alt mr-5 text-muted"></i>Lean more</a></Link>
+                                                    <Link href="/page-privacy-policy"><a><i className="fi-rs-book-alt mr-5 text-muted"></i>Lean more</p></Link>
                                                 </div>
                                                 <div className="form-group mb-30">
                                                     <button type="submit" className="btn btn-fill-out btn-block hover-up font-weight-bold" name="login">Submit &amp; Register</button>
@@ -73,15 +73,15 @@ function Privacy() {
                                         <a href="#" className="social-login facebook-login">
                                             <img src="/assets/imgs/theme/icons/logo-facebook.svg" alt="" />
                                             <span>Continue with Facebook</span>
-                                        </a>
+                                        </p>
                                         <a href="#" className="social-login google-login">
                                             <img src="/assets/imgs/theme/icons/logo-google.svg" alt="" />
                                             <span>Continue with Google</span>
-                                        </a>
+                                        </p>
                                         <a href="#" className="social-login apple-login">
                                             <img src="/assets/imgs/theme/icons/logo-apple.svg" alt="" />
                                             <span>Continue with Apple</span>
-                                        </a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

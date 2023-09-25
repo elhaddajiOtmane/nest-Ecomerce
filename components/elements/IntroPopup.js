@@ -45,7 +45,7 @@ const IntroPopup = () => {
                                             <a className="text-heading">
                                                 Organic fruit for your family's
                                                 health
-                                            </a>
+                                            </p>
                                         </Link>
                                     </h6>
                                     <div className="clearfix product-price-cover">
@@ -85,7 +85,7 @@ const IntroPopup = () => {
                                         <a className="btn hover-up">
                                             Shop Now{" "}
                                             <i className="fi-rs-arrow-right"></i>
-                                        </a>
+                                        </p>
                                     </Link>
                                 </div>
                             </div>

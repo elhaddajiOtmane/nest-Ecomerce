@@ -42,22 +42,22 @@ const Header = ({
                                     <ul>
                                         <li>
                                             <Link href="/page-about">
-                                                <a>About Us</a>
+                                                <a>About Us</p>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/page-account">
-                                                <a>My Account</a>
+                                                <a>My Account</p>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/shop-wishlist">
-                                                <a>Wishlist</a>
+                                                <a>Wishlist</p>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/page-account">
-                                                <a>Order Tracking</a>
+                                                <a>Order Tracking</p>
                                             </Link>
                                         </li>
                                     </ul>
@@ -73,7 +73,7 @@ const Header = ({
                                             <li>
                                                 Get great devices up to 50% off
                                                 <Link href="/shop-grid-right">
-                                                    <a> View details</a>
+                                                    <a> View details</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -96,7 +96,7 @@ const Header = ({
                                                     <i className="fi-rs-world"></i>
                                                     English
                                                     <i className="fi-rs-angle-small-down"></i>
-                                                </a>
+                                                </p>
                                             </Link>
                                             <ul className="language-dropdown">
                                                 <li>
@@ -107,7 +107,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Français
-                                                        </a>
+                                                        </p>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -118,7 +118,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Deutsch
-                                                        </a>
+                                                        </p>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -129,7 +129,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Pусский
-                                                        </a>
+                                                        </p>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -141,7 +141,7 @@ const Header = ({
                                             >
                                                 USD{" "}
                                                 <i className="fi-rs-angle-small-down"></i>
-                                            </a>
+                                            </p>
                                             <ul className="language-dropdown">
                                                 <li>
                                                     <a href="#">
@@ -150,7 +150,7 @@ const Header = ({
                                                             alt=""
                                                         />
                                                         INR
-                                                    </a>
+                                                    </p>
                                                 </li>
                                                 <li>
                                                     <a href="#">
@@ -159,7 +159,7 @@ const Header = ({
                                                             alt=""
                                                         />
                                                         MBP
-                                                    </a>
+                                                    </p>
                                                 </li>
                                                 <li>
                                                     <a href="#">
@@ -168,7 +168,7 @@ const Header = ({
                                                             alt=""
                                                         />
                                                         EU
-                                                    </a>
+                                                    </p>
                                                 </li>
                                             </ul>
                                         </li>
@@ -188,7 +188,7 @@ const Header = ({
                                             src="/assets/imgs/theme/logo.svg"
                                             alt="logo"
                                         />
-                                    </a>
+                                    </p>
                                 </Link>
                             </div>
                             <div className="header-right">
@@ -230,14 +230,14 @@ const Header = ({
                                                     <span className="pro-count blue">
                                                         {totalCompareItems}
                                                     </span>
-                                                </a>
+                                                </p>
                                             </Link>
                                             <Link href="/shop-compare">
                                                 <a>
                                                     <span className="lable ml-0">
                                                         Compare
                                                     </span>
-                                                </a>
+                                                </p>
                                             </Link>
                                         </div>
                                         <div className="header-action-icon-2">
@@ -251,7 +251,7 @@ const Header = ({
                                                     <span className="pro-count blue">
                                                         {totalWishlistItems}
                                                     </span>
-                                                </a>
+                                                </p>
                                             </Link>
                                             <Link href="/shop-wishlist">
                                                 <span className="lable">
@@ -269,14 +269,14 @@ const Header = ({
                                                     <span className="pro-count blue">
                                                         {totalCartItems}
                                                     </span>
-                                                </a>
+                                                </p>
                                             </Link>
                                             <Link href="/shop-cart">
                                                 <a>
                                                     <span className="lable">
                                                         Cart
                                                     </span>
-                                                </a>
+                                                </p>
                                             </Link>
                                         </div>
 
@@ -287,12 +287,12 @@ const Header = ({
                                                     alt="Nest"
                                                     src="/assets/imgs/theme/icons/icon-user.svg"
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                             <Link href="/page-account"><a>
                                                 <span className="lable ml-0">
                                                     Account
                                                 </span>
-                                            </a></Link>
+                                            </p></Link>
                                             <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
                                                 <ul>
                                                     <li>
@@ -300,37 +300,37 @@ const Header = ({
                                                              <a>
                                                                 <i className="fi fi-rs-user mr-10"></i>
                                                                 My Account
-                                                            </a></Link>
+                                                            </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-account"><a>
                                                             <i className="fi fi-rs-location-alt mr-10"></i>
                                                             Order Tracking
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-account"><a>
                                                             <i className="fi fi-rs-label mr-10"></i>
                                                             My Voucher
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-wishlist"><a>
                                                             <i className="fi fi-rs-heart mr-10"></i>
                                                             My Wishlist
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-account"><a>
                                                             <i className="fi fi-rs-settings-sliders mr-10"></i>
                                                             Setting
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-login"><a>
                                                             <i className="fi fi-rs-sign-out mr-10"></i>
                                                             Sign out
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -357,7 +357,7 @@ const Header = ({
                                             src="/assets/imgs/theme/logo.svg"
                                             alt="logo"
                                         />
-                                    </a>
+                                    </p>
                                 </Link>
                             </div>
                             <div className="header-nav d-none d-lg-flex">
@@ -370,7 +370,7 @@ const Header = ({
                                         <span className="et">Browse</span> All
                                         Categories
                                         <i className="fi-rs-angle-down"></i>
-                                    </a>
+                                    </p>
 
                                     <div
                                         className={
@@ -397,7 +397,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Milks and Dairies
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/products"><a>
@@ -407,7 +407,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Clothing & beauty
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                 </ul>
                                                 <ul className="end">
@@ -419,7 +419,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Wines & Drinks
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/products"><a>
@@ -429,7 +429,7 @@ const Header = ({
                                                                 alt=""
                                                             />
                                                             Fresh Seafood
-                                                        </a></Link>
+                                                        </p></Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -452,7 +452,7 @@ const Header = ({
                                                 />
                                                 <Link href="/products"><a>
                                                     Hot Deals
-                                                </a>
+                                                </p>
                                                 </Link>
                                             </li>
                                             <li>
@@ -460,34 +460,34 @@ const Header = ({
                                                     <a className="active">
                                                         Home
                                                         <i className="fi-rs-angle-down"></i>
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link href="/">
-                                                            <a>Home 1</a>
+                                                            <a>Home 1</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/index-2">
-                                                            <a>Home 2</a>
+                                                            <a>Home 2</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/index-3">
-                                                            <a>Home 3</a>
+                                                            <a>Home 3</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/index-4">
-                                                            <a>Home 4</a>
+                                                            <a>Home 4</p>
                                                         </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <Link href="/page-about">
-                                                    <a>About</a>
+                                                    <a>About</p>
                                                 </Link>
                                             </li>
                                             <li>
@@ -495,7 +495,7 @@ const Header = ({
                                                     <a>
                                                         Shop
                                                         <i className="fi-rs-angle-down"></i>
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -503,7 +503,7 @@ const Header = ({
                                                             <a>
                                                                 Shop Grid –
                                                                 Right Sidebar
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -511,7 +511,7 @@ const Header = ({
                                                             <a>
                                                                 Shop Grid – Left
                                                                 Sidebar
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -519,7 +519,7 @@ const Header = ({
                                                             <a>
                                                                 Shop List –
                                                                 Right Sidebar
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -527,55 +527,55 @@ const Header = ({
                                                             <a>
                                                                 Shop List – Left
                                                                 Sidebar
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-fullwidth">
-                                                            <a>Shop - Wide</a>
+                                                            <a>Shop - Wide</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-filter">
-                                                            <a>Shop - Filter</a>
+                                                            <a>Shop - Filter</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-wishlist">
                                                             <a>
                                                                 Shop – Wishlist
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-cart">
-                                                            <a>Shop – Cart</a>
+                                                            <a>Shop – Cart</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-checkout">
                                                             <a>
                                                                 Shop – Checkout
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/shop-compare">
                                                             <a>
                                                                 Shop – Compare
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                 </ul>
                                             </li>
 
                                             <li>
-                                                <a href="#">Vendors <i className="fi-rs-angle-down"></i></a>
+                                                <a href="#">Vendors <i className="fi-rs-angle-down"></i></p>
                                                 <ul className="sub-menu">
-                                                    <li><Link href="/vendors"><a>Vendors Grid</a></Link></li>
-                                                    <li><Link href="/vendors-list"><a>Vendors List</a></Link></li>
-                                                    <li><Link href="/vendor-dashboard"><a>Vendor Dashboard</a></Link></li>
-                                                    <li><Link href="/vendor-guide"><a>Vendor Guide</a></Link></li>
+                                                    <li><Link href="/vendors"><a>Vendors Grid</p></Link></li>
+                                                    <li><Link href="/vendors-list"><a>Vendors List</p></Link></li>
+                                                    <li><Link href="/vendor-dashboard"><a>Vendor Dashboard</p></Link></li>
+                                                    <li><Link href="/vendor-guide"><a>Vendor Guide</p></Link></li>
                                                 </ul>
                                             </li>
 
@@ -584,7 +584,7 @@ const Header = ({
                                                     <a>
                                                         Mega menu
                                                         <i className="fi-rs-angle-down"></i>
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                                 <ul className="mega-menu">
                                                     <li className="sub-mega-menu sub-mega-menu-width-22">
@@ -593,44 +593,44 @@ const Header = ({
                                                             href="#"
                                                         >
                                                             Fruit & Vegetables
-                                                        </a>
+                                                        </p>
                                                         <ul>
                                                             <li>
                                                                 <a href="#">
                                                                     Meat &
                                                                     Poultry
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Fresh
                                                                     Vegetables
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Herbs &
                                                                     Seasonings
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Cuts &
                                                                     Sprouts
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Exotic
                                                                     Fruits &
                                                                     Veggies
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Packaged
                                                                     Produce
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -640,41 +640,41 @@ const Header = ({
                                                             href="#"
                                                         >
                                                             Breakfast & Dairy
-                                                        </a>
+                                                        </p>
                                                         <ul>
                                                             <li>
                                                                 <a href="#">
                                                                     Milk &
                                                                     Flavoured
                                                                     Milk
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Butter and
                                                                     Margarine
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Eggs
                                                                     Substitutes
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Marmalades
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Sour Cream
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Cheese
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -684,42 +684,42 @@ const Header = ({
                                                             href="#"
                                                         >
                                                             Meat & Seafood
-                                                        </a>
+                                                        </p>
                                                         <ul>
                                                             <li>
                                                                 <a href="#">
                                                                     Breakfast
                                                                     Sausage
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Dinner
                                                                     Sausage
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Chicken
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Sliced Deli
                                                                     Meat
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Wild Caught
                                                                     Fillets
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
                                                                     Crab and
                                                                     Shellfish
-                                                                </a>
+                                                                </p>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -730,7 +730,7 @@ const Header = ({
                                                                     src="/assets/imgs/banner/banner-menu.png"
                                                                     alt="Nest"
                                                                 />
-                                                            </a>
+                                                            </p>
                                                             <div className="menu-banner-content">
                                                                 <h4>
                                                                     Hot deals
@@ -749,7 +749,7 @@ const Header = ({
                                                                 <div className="menu-banner-btn">
                                                                     <a href="#">
                                                                         Shop now
-                                                                    </a>
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                             <div className="menu-banner-discount">
@@ -769,7 +769,7 @@ const Header = ({
                                                     <a>
                                                         Blog
                                                         <i className="fi-rs-angle-down"></i>
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -777,7 +777,7 @@ const Header = ({
                                                             <a>
                                                                 Blog Category
                                                                 Grid
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -785,7 +785,7 @@ const Header = ({
                                                             <a>
                                                                 Blog Category
                                                                 List
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -793,7 +793,7 @@ const Header = ({
                                                             <a>
                                                                 Blog Category
                                                                 Big
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -801,7 +801,7 @@ const Header = ({
                                                             <a>
                                                                 Blog Category
                                                                 Wide
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -809,7 +809,7 @@ const Header = ({
                                                             <a>
                                                                 Single Post
                                                                 <i className="fi-rs-angle-right"></i>
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                         <ul className="level-menu level-menu-modify">
                                                             <li>
@@ -817,7 +817,7 @@ const Header = ({
                                                                     <a>
                                                                         Left
                                                                         Sidebar
-                                                                    </a>
+                                                                    </p>
                                                                 </Link>
                                                             </li>
                                                             <li>
@@ -825,7 +825,7 @@ const Header = ({
                                                                     <a>
                                                                         Right
                                                                         Sidebar
-                                                                    </a>
+                                                                    </p>
                                                                 </Link>
                                                             </li>
                                                             <li>
@@ -833,7 +833,7 @@ const Header = ({
                                                                     <a>
                                                                         No
                                                                         Sidebar
-                                                                    </a>
+                                                                    </p>
                                                                 </Link>
                                                             </li>
                                                         </ul>
@@ -845,62 +845,62 @@ const Header = ({
                                                     <a>
                                                         Pages
                                                         <i className="fi-rs-angle-down"></i>
-                                                    </a>
+                                                    </p>
                                                 </Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link href="/page-about">
-                                                            <a>About Us</a>
+                                                            <a>About Us</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-contact">
-                                                            <a>Contact</a>
+                                                            <a>Contact</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-account">
-                                                            <a>My Account</a>
+                                                            <a>My Account</p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-login-register">
                                                             <a>
                                                                 login/register
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-purchase-guide">
                                                             <a>
                                                                 Purchase Guide
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-privacy-policy">
                                                             <a>
                                                                 Privacy Policy
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-terms">
                                                             <a>
                                                                 Terms of Service
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </li>
                                                     <li>
                                                         <Link href="/page-404">
-                                                            <a>404 Page</a>
+                                                            <a>404 Page</p>
                                                         </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <Link href="/page-contact">
-                                                    <a>Contact</a>
+                                                    <a>Contact</p>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -938,7 +938,7 @@ const Header = ({
                                                 <span className="pro-count white">
                                                     {totalCompareItems}
                                                 </span>
-                                            </a>
+                                            </p>
                                         </Link>
                                     </div>
                                     <div className="header-action-icon-2">
@@ -951,7 +951,7 @@ const Header = ({
                                                 <span className="pro-count white">
                                                     {totalWishlistItems}
                                                 </span>
-                                            </a>
+                                            </p>
                                         </Link>
                                     </div>
                                     <div className="header-action-icon-2">
@@ -964,7 +964,7 @@ const Header = ({
                                                 <span className="pro-count white">
                                                     {totalCartItems}
                                                 </span>
-                                            </a>
+                                            </p>
                                         </Link>
                                         <div className="cart-dropdown-wrap cart-dropdown-hm2">
                                             <ul>
@@ -976,7 +976,7 @@ const Header = ({
                                                                     alt="Evara"
                                                                     src="/assets/imgs/shop/thumbnail-3.jpg"
                                                                 />
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </div>
                                                     <div className="shopping-cart-title">
@@ -986,7 +986,7 @@ const Header = ({
                                                                     Plain
                                                                     Striola
                                                                     Shirts
-                                                                </a>
+                                                                </p>
                                                             </Link>
                                                         </h4>
                                                         <h3>
@@ -998,7 +998,7 @@ const Header = ({
                                                         <Link href="/#">
                                                             <a>
                                                                 <i className="fi-rs-cross-small"></i>
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </div>
                                                 </li>
@@ -1010,7 +1010,7 @@ const Header = ({
                                                                     alt="Evara"
                                                                     src="/assets/imgs/shop/thumbnail-4.jpg"
                                                                 />
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </div>
                                                     <div className="shopping-cart-title">
@@ -1019,7 +1019,7 @@ const Header = ({
                                                                 <a>
                                                                     Macbook Pro
                                                                     2022
-                                                                </a>
+                                                                </p>
                                                             </Link>
                                                         </h4>
                                                         <h3>
@@ -1031,7 +1031,7 @@ const Header = ({
                                                         <Link href="/#">
                                                             <a>
                                                                 <i className="fi-rs-cross-small"></i>
-                                                            </a>
+                                                            </p>
                                                         </Link>
                                                     </div>
                                                 </li>
@@ -1045,10 +1045,10 @@ const Header = ({
                                                 </div>
                                                 <div className="shopping-cart-button">
                                                     <Link href="/shop-cart">
-                                                        <a>View cart</a>
+                                                        <a>View cart</p>
                                                     </Link>
                                                     <Link href="/shop-checkout">
-                                                        <a>Checkout</a>
+                                                        <a>Checkout</p>
                                                     </Link>
                                                 </div>
                                             </div>

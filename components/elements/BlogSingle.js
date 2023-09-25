@@ -9,7 +9,7 @@ const BlogSingle = () => {
                     <div className="row">
                         <div className="col-xl-10 col-lg-12 m-auto">
                             <h6 className="mb-10">
-                                <Link href="#"><a>Recipes</a></Link>
+                                <Link href="#"><a>Recipes</p></Link>
                             </h6>
                             <h2 className="mb-10">
                                 Best smartwatch 2021: the top wearables you can
@@ -23,9 +23,9 @@ const BlogSingle = () => {
                                             src="/assets/imgs/blog/author-1.png"
                                             alt=""
                                         />
-                                    </a></Link>
+                                    </p></Link>
                                     <span className="post-by">
-                                        By <Link href="#"><a>Sugar Rosie</a></Link>
+                                        By <Link href="#"><a>Sugar Rosie</p></Link>
                                     </span>
                                     <span className="post-on has-dot">
                                         2 hours ago
@@ -42,7 +42,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-bookmark.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                         <li>
                                             <Link href="#"><a>
@@ -50,7 +50,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-heart-2.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -115,9 +115,9 @@ const BlogSingle = () => {
                             </p>
                             <blockquote>
                                 <p>
-                                    Integer eu faucibus <Link href="#"><a>dolor</a></Link>
+                                    Integer eu faucibus <Link href="#"><a>dolor</p></Link>
                                     <sup>
-                                        <Link href="#"><a>[5]</a></Link>
+                                        <Link href="#"><a>[5]</p></Link>
                                     </sup>
                                     . Ut venenatis tincidunt diam elementum
                                     imperdiet. Etiam accumsan semper nisl eu
@@ -146,21 +146,21 @@ const BlogSingle = () => {
                                         className="hover-up btn btn-sm btn-rounded mr-10"
                                     >
                                         deer
-                                    </a></Link>
+                                    </p></Link>
                                     <Link href="/blog-category-big"><a
 
                                         rel="tag"
                                         className="hover-up btn btn-sm btn-rounded mr-10"
                                     >
                                         nature
-                                    </a></Link>
+                                    </p></Link>
                                     <Link href="/blog-category-big"><a
 
                                         rel="tag"
                                         className="hover-up btn btn-sm btn-rounded mr-10"
                                     >
                                         conserve
-                                    </a></Link>
+                                    </p></Link>
                                 </div>
                                 <div className="social-icons single-share">
                                     <ul className="text-grey-5 d-inline-block">
@@ -175,7 +175,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-facebook.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                         <li className="social-twitter">
                                             <Link href="#"><a>
@@ -183,7 +183,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-twitter.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                         <li className="social-instagram">
                                             <Link href="#"><a>
@@ -191,7 +191,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-instagram.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                         <li className="social-linkedin">
                                             <Link href="#"><a>
@@ -199,7 +199,7 @@ const BlogSingle = () => {
                                                     src="/assets/imgs/theme/icons/icon-pinterest.svg"
                                                     alt=""
                                                 />
-                                            </a></Link>
+                                            </p></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -213,7 +213,7 @@ const BlogSingle = () => {
                                             alt=""
                                             className="avatar"
                                         />
-                                    </a></Link>
+                                    </p></Link>
                                     <div className="author-infor">
                                         <h5 className="mb-5">Barbara Cartland</h5>
                                         <p className="mb-0 text-muted font-xs">
@@ -319,7 +319,7 @@ const BlogSingle = () => {
                                                                 className="font-heading text-brand"
                                                             >
                                                                 Sienna
-                                                            </a></Link>
+                                                            </p></Link>
                                                         </div>
                                                         <div className="desc">
                                                             <div className="d-flex justify-content-between mb-10">
@@ -364,7 +364,7 @@ const BlogSingle = () => {
                                                                     className="reply"
                                                                 >
                                                                     Reply
-                                                                </a></Link>
+                                                                </p></Link>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -381,7 +381,7 @@ const BlogSingle = () => {
                                                                 className="font-heading text-brand"
                                                             >
                                                                 Brenna
-                                                            </a></Link>
+                                                            </p></Link>
                                                         </div>
                                                         <div className="desc">
                                                             <div className="d-flex justify-content-between mb-10">
@@ -426,7 +426,7 @@ const BlogSingle = () => {
                                                                     className="reply"
                                                                 >
                                                                     Reply
-                                                                </a></Link>
+                                                                </p></Link>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -443,7 +443,7 @@ const BlogSingle = () => {
                                                                 className="font-heading text-brand"
                                                             >
                                                                 Gemma
-                                                            </a></Link>
+                                                            </p></Link>
                                                         </div>
                                                         <div className="desc">
                                                             <div className="d-flex justify-content-between mb-10">
@@ -488,7 +488,7 @@ const BlogSingle = () => {
                                                                     className="reply"
                                                                 >
                                                                     Reply
-                                                                </a></Link>
+                                                                </p></Link>
                                                             </p>
                                                         </div>
                                                     </div>

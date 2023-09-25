@@ -151,12 +151,12 @@ const BlogGridBig = ({ show }) => {
                     <div className="post-thumb border-radius-15">
                         <Link href="/blog-post-right"><a>
                             <img className="border-radius-15" src={`/assets/imgs/blog/${item.img}`} alt="" />
-                        </a></Link>
+                        </p></Link>
                     </div>
                 </div>
                 <div className="entry-content">
                     <h2 className="post-title mb-20">
-                        <Link href="/blog-post-right"><a>{item.title} </a></Link>
+                        <Link href="/blog-post-right"><a>{item.title} </p></Link>
                     </h2>
                     <p className="post-exerpt font-medium text-muted mb-30">{item.desc}</p>
                     <div className="mb-20 entry-meta meta-2">
@@ -169,7 +169,7 @@ const BlogGridBig = ({ show }) => {
                                     ><span className="mr-10 text-muted"><i className="fi-rs-share"></i></span>18k</span>
                             </div>
                         </div>
-                        <Link href="/blog-post-right"><a className="btn btn-sm">Read more<i className="fi-rs-arrow-right ml-10"></i></a></Link>
+                        <Link href="/blog-post-right"><a className="btn btn-sm">Read more<i className="fi-rs-arrow-right ml-10"></i></p></Link>
                     </div>
                 </div>
             </article>

@@ -34,22 +34,22 @@ export default function Home() {
                                 <ul className="list-inline nav nav-tabs links">
                                     <li className="list-inline-item nav-item">
                                         <Link href="/products">
-                                            <a className="nav-link">Cake & Milk</a>
+                                            <a className="nav-link">Cake & Milk</p>
                                         </Link>
                                     </li>
                                     <li className="list-inline-item nav-item">
                                         <Link href="/products">
-                                            <a className="nav-link">Coffes & Teas</a>
+                                            <a className="nav-link">Coffes & Teas</p>
                                         </Link>
                                     </li>
                                     <li className="list-inline-item nav-item">
                                         <Link href="/products">
-                                            <a className="nav-link active">Pet Foods</a>
+                                            <a className="nav-link active">Pet Foods</p>
                                         </Link>
                                     </li>
                                     <li className="list-inline-item nav-item">
                                         <Link href="/products">
-                                            <a className="nav-link">Vegetables</a>
+                                            <a className="nav-link">Vegetables</p>
                                         </Link>
                                     </li>
                                 </ul>
@@ -93,7 +93,7 @@ export default function Home() {
                                 <a className="show-all">
                                     All Deals
                                     <i className="fi-rs-angle-right"></i>
-                                </a>
+                                </p>
                             </Link>
                         </div>
                         <FeatchDeals />
