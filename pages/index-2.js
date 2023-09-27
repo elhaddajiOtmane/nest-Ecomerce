@@ -43,7 +43,7 @@ function Index2() {
                                         >
                                             Shop Now{" "}
                                             <i className="fi-rs-arrow-small-right"></i>
-                                        </p>
+                                        </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ function Index2() {
                             <Link href="/shop-grid-right"><a className="show-all">
                                 All Deals
                                 <i className="fi-rs-angle-right"></i>
-                            </p></Link>
+                            </a></Link>
                         </div>
                         <FeatchDeals/>
                     </div>
@@ -107,7 +107,7 @@ function Index2() {
                             <Link href="/shop-grid-right"><a className="show-all">
                                 All Categories
                                 <i className="fi-rs-angle-right"></i>
-                            </p></Link>
+                            </a></Link>
                         </div>
                         </div>
                         <div className="carausel-8-columns-cover position-relative">

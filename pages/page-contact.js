@@ -64,7 +64,7 @@ function Contact() {
                                         Chicago, 60601, USA<br />
                                         <abbr title="Phone">Phone:</abbr> (123) 456-7890<br />
                                         <abbr title="Email">Email: </abbr>contact@Evara.com<br />
-                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</p>
+                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</a>
                                     </div>
                                     <div className="col-md-4 mb-4 mb-md-0">
                                         <h4 className="mb-15 text-brand">Studio</h4>
@@ -72,7 +72,7 @@ function Contact() {
                                         Chicago, 60601, USA<br />
                                         <abbr title="Phone">Phone:</abbr> (123) 456-7890<br />
                                         <abbr title="Email">Email: </abbr>contact@Evara.com<br />
-                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</p>
+                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</a>
                                     </div>
                                     <div className="col-md-4">
                                         <h4 className="mb-15 text-brand">Shop</h4>
@@ -80,7 +80,7 @@ function Contact() {
                                         Chicago, 60601, USA<br />
                                         <abbr title="Phone">Phone:</abbr> (123) 456-7890<br />
                                         <abbr title="Email">Email: </abbr>contact@Evara.com<br />
-                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</p>
+                                        <a className="btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i className="fi-rs-marker mr-5"></i>View map</a>
                                     </div>
                                 </div>
                                 <div className="row">

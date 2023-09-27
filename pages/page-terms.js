@@ -16,7 +16,7 @@ function Terms() {
                                         <div className="single-header style-2">
                                             <h2>Terms of Service</h2>
                                             <div className="entry-meta meta-1 meta-3 font-xs mt-15 mb-15">
-                                                <span className="post-by">By <a href="#">Jonh</p></span>
+                                                <span className="post-by">By <a href="#">Jonh</a></span>
                                                 <span className="post-on has-dot">9 April 2020</span>
                                                 <span className="time-reading has-dot">8 mins read</span>
                                                 <span className="hit-count has-dot">29k Views</span>
@@ -48,7 +48,7 @@ function Terms() {
                                             <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
                                             <p>By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.</p>
                                             <h4>Contact Us</h4>
-                                            <p>If you have any questions about these Terms, please <Link href="/page-contact"><a>contact us</p></Link>.</p>
+                                            <p>If you have any questions about these Terms, please <Link href="/page-contact"><a>contact us</a></Link>.</p>
                                         </div>
                                     </div>
                                 </div>

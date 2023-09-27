@@ -145,7 +145,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 <div className="product-category">
                                                     <span className="text-muted">Since 2012</span>
                                                 </div>
-                                                <h4 className="mb-5"><Link href="/vendor/1"><a className="text-heading">{singleStore.title}</p></Link></h4>
+                                                <h4 className="mb-5"><Link href="/vendor/1"><a className="text-heading">{singleStore.title}</a></Link></h4>
 
                                                 <div className="product-rate-cover mb-15">
                                                     <div className="product-rate d-inline-block">
@@ -163,22 +163,22 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                         <li className="hover-up">
                                                             <a href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-tw.svg" alt="" />
-                                                            </p>
+                                                            </a>
                                                         </li>
                                                         <li className="hover-up">
                                                             <a href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-fb.svg" alt="" />
-                                                            </p>
+                                                            </a>
                                                         </li>
                                                         <li className="hover-up">
                                                             <a href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-insta.svg" alt="" />
-                                                            </p>
+                                                            </a>
                                                         </li>
                                                         <li className="hover-up">
                                                             <a href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-pin.svg" alt="" />
-                                                            </p>
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -188,7 +188,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                         <li><img className="mr-5" src="assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined, Utah 53127 United States</span></li>
                                                         <li><img className="mr-5" src="assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
                                                     </ul>
-                                                    <Link href="/vendor/1"><a className="btn btn-xs">Contact Seller <i className="i-rs-arrow-small-right"></i></p></Link>
+                                                    <Link href="/vendor/1"><a className="btn btn-xs">Contact Seller <i className="i-rs-arrow-small-right"></i></a></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,7 +240,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                         </div>
                                         <div className="content pt-10">
                                             <h5>
-                                                <a>Chen Cardigan</p>
+                                                <a>Chen Cardigan</a>
                                             </h5>
                                             <p className="price mb-0 mt-5">
                                                 $99.50
@@ -262,7 +262,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                         </div>
                                         <div className="content pt-10">
                                             <h6>
-                                                <a>Chen Sweater</p>
+                                                <a>Chen Sweater</a>
                                             </h6>
                                             <p className="price mb-0 mt-5">
                                                 $89.50
@@ -284,7 +284,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                         </div>
                                         <div className="content pt-10">
                                             <h6>
-                                                <a>Colorful Jacket</p>
+                                                <a>Colorful Jacket</a>
                                             </h6>
                                             <p className="price mb-0 mt-5">
                                                 $25

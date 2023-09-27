@@ -128,10 +128,10 @@ const CategorySlider = () => {
                             <figure className=" img-hover-scale overflow-hidden">
                                 <a>
                                     <img src={`assets/imgs/shop/${item.img}`} alt="" />
-                                </p>
+                                </a>
                             </figure>
                             <h6>
-                                <a>{item.title}</p>
+                                <a>{item.title}</a>
                             </h6>
                             <span>26 items</span>
                         </div>

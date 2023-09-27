@@ -32,13 +32,13 @@ const NewArrival2 = () => {
                         <Link href="/products/[slug]" as={`/products/${product.slug}`}>
                             <a>
                                 <img src={product.images[0].img} alt="" />
-                            </p>
+                            </a>
                         </Link>
                     </figure>
                     <div className="col-md-8 mb-0">
                         <h6>
                             <Link href="/products/[slug]" as={`/products/${product.slug}`}>
-                                <a>{product.title}</p>
+                                <a>{product.title}</a>
                             </Link>
                         </h6>
                         <div className="product-rate-cover">

@@ -95,7 +95,7 @@ const ProductDetails = ({
                                                         <li key={i}>
                                                             <a href="#">
                                                                 <span className={`product-color-${clr}`}></span>
-                                                            </p>
+                                                            </a>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -104,16 +104,16 @@ const ProductDetails = ({
                                                 <strong className="mr-10">Size</strong>
                                                 <ul className="list-filter size-filter font-small">
                                                     <li className="active">
-                                                        <a>M</p>
+                                                        <a>M</a>
                                                     </li>
                                                     <li>
-                                                        <a>L</p>
+                                                        <a>L</a>
                                                     </li>
                                                     <li>
-                                                        <a>XL</p>
+                                                        <a>XL</a>
                                                     </li>
                                                     <li>
-                                                        <a>XXL</p>
+                                                        <a>XXL</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -122,11 +122,11 @@ const ProductDetails = ({
                                                 <div className="detail-qty border radius">
                                                     <a onClick={(e) => (!inCart ? setQuantity(quantity > 1 ? quantity - 1 : 1) : decreaseQuantity(product?.id))} className="qty-down">
                                                         <i className="fi-rs-angle-small-down"></i>
-                                                    </p>
+                                                    </a>
                                                     <span className="qty-val">{inCart?.quantity || quantity}</span>
                                                     <a onClick={() => (!inCart ? setQuantity(quantity + 1) : increaseQuantity(product.id))} className="qty-up">
                                                         <i className="fi-rs-angle-small-up"></i>
-                                                    </p>
+                                                    </a>
                                                 </div>
                                                 <div className="product-extra-link2">
                                                     <button
@@ -142,22 +142,22 @@ const ProductDetails = ({
                                                     </button>
                                                     <a aria-label="Add To Wishlist" className="action-btn hover-up" onClick={(e) => handleWishlist(product)}>
                                                         <i className="fi-rs-heart"></i>
-                                                    </p>
+                                                    </a>
                                                     <a aria-label="Compare" className="action-btn hover-up" onClick={(e) => handleCompare(product)}>
                                                         <i className="fi-rs-shuffle"></i>
-                                                    </p>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <ul className="product-meta font-xs color-grey mt-50">
                                                 <li className="mb-5">
                                                     SKU:
-                                                    <a href="#">FWM15VKT</p>
+                                                    <a href="#">FWM15VKT</a>
                                                 </li>
                                                 <li className="mb-5">
                                                     Tags:
                                                     <a href="#" rel="tag" className="me-1">
                                                         Cloth,
-                                                    </p>
+                                                    </a>
                                                 </li>
                                                 <li>
                                                     Availability:

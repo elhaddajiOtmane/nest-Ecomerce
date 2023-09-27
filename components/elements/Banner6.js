@@ -14,7 +14,7 @@ const Banner6 = () => {
                     <Link href="/products">
                             <a>
                                 Shop Now <i className="fi-rs-arrow-right"></i>
-                            </p>
+                            </a>
                         </Link>
                 </div>
             </div>

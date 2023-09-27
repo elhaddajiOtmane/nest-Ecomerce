@@ -34,7 +34,7 @@ const CategoryFilter = ({ updateProductCategory }) => {
                             }
                         >
                             {i == 0 ? "All" : `${item.title}`}
-                        </p>
+                        </a>
                     </li>
                 ))}
             </ul>

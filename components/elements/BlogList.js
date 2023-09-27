@@ -152,7 +152,7 @@ const BlogList = ({ show }) => {
                     >
                         <div className="entry-meta">
                             <Link href="/blog-category-grid">
-                                <a className="entry-meta meta-2">Technology</p>
+                                <a className="entry-meta meta-2">Technology</a>
                             </Link>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ const BlogList = ({ show }) => {
                                     Ettitude — Beautifully Designed Bamboo
                                     Sheets & Sleep Wear-Home Décor Holiday Gift
                                     Guide
-                                </p>
+                                </a>
                             </Link>
                         </h3>
                         <p className="post-exerpt mb-30">
@@ -187,7 +187,7 @@ const BlogList = ({ show }) => {
                                 <a className="text-brand">
                                     Read more{" "}
                                     <i className="fi-rs-arrow-right"></i>
-                                </p>
+                                </a>
                             </Link>
                         </div>
                     </div>

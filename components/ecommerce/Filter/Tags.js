@@ -41,7 +41,7 @@ const Tags = ({ updateProductFilters }) => {
                             }
                         ><i className="fi-rs-cross mr-10"></i>
                             {i == 0 ? "All" : `${tag.value}`}
-                        </p>
+                        </a>
                     </li>
                 ))}
             </ul>

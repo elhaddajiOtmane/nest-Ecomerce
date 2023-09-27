@@ -23,7 +23,7 @@ const VerticalSlider = () => {
                     <li>
                         Get great devices up to 50% off
                         <Link href="/shop-grid-right">
-                            <a>View details</p>
+                            <a>View details</a>
                         </Link>
                     </li>
                 </SwiperSlide>
@@ -34,7 +34,7 @@ const VerticalSlider = () => {
                     <li>
                         Trendy 25silver jewelry, save up 35% off today
                         <Link href="/shop-grid-right">
-                            <a>Shop now</p>
+                            <a>Shop now</a>
                         </Link>
                     </li>
                 </SwiperSlide>
