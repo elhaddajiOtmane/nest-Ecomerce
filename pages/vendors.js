@@ -44,11 +44,11 @@ const Blank = () => {
                                             </div>
                                             <div className="sort-by-dropdown">
                                                 <ul>
-                                                    <li><a className="active" href="#">50</a></li>
-                                                    <li><a href="#">100</a></li>
-                                                    <li><a href="#">150</a></li>
-                                                    <li><a href="#">200</a></li>
-                                                    <li><a href="#">All</a></li>
+                                                    <li><a className="active" href="#">50</p></li>
+                                                    <li><a href="#">100</p></li>
+                                                    <li><a href="#">150</p></li>
+                                                    <li><a href="#">200</p></li>
+                                                    <li><a href="#">All</p></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -63,11 +63,11 @@ const Blank = () => {
                                             </div>
                                             <div className="sort-by-dropdown">
                                                 <ul>
-                                                    <li><a className="active" href="#">Mall</a></li>
-                                                    <li><a href="#">Featured</a></li>
-                                                    <li><a href="#">Preferred</a></li>
-                                                    <li><a href="#">Total items</a></li>
-                                                    <li><a href="#">Avg. Rating</a></li>
+                                                    <li><a className="active" href="#">Mall</p></li>
+                                                    <li><a href="#">Featured</p></li>
+                                                    <li><a href="#">Preferred</p></li>
+                                                    <li><a href="#">Total items</p></li>
+                                                    <li><a href="#">Avg. Rating</p></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -84,7 +84,7 @@ const Blank = () => {
                                                 <Link href={`vendor/${item.id}`}>
                                                     <a>
                                                     <img className="default-img" src={`assets/imgs/vendor/${item.img}`} alt="" />
-                                                </a></Link>
+                                                </p></Link>
                                             </div>
                                             <div className="product-badges product-badges-position product-badges-mrg">
                                                 <span className="hot">Mall</span>
@@ -97,7 +97,7 @@ const Blank = () => {
                                                         <span className="text-muted">Since 2012</span>
                                                     </div>
                                                     <h4 className="mb-5">
-                                                        <Link href={`vendor/${item.id}`}><a>{item.title}</a></Link></h4>
+                                                        <Link href={`vendor/${item.id}`}><a>{item.title}</p></Link></h4>
 
                                                     <div className="product-rate-cover">
                                                         <div className="product-rate d-inline-block">
@@ -118,7 +118,7 @@ const Blank = () => {
                                                     <li><img src="/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
                                                 </ul>
                                             </div>
-                                            <Link href={`vendor/${item.id}`}><a className="btn btn-xs">Visit Store <i className="fi-rs-arrow-small-right"></i></a></Link>
+                                            <Link href={`vendor/${item.id}`}><a className="btn btn-xs">Visit Store <i className="fi-rs-arrow-small-right"></i></p></Link>
                                         </div>
                                     </div>
                                 
@@ -129,15 +129,15 @@ const Blank = () => {
                             <nav aria-label="Page navigation example">
                                 <ul className="pagination justify-content-start">
                                     <li className="page-item">
-                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></a>
+                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></p>
                                     </li>
-                                    <li className="page-item"><a className="page-link" href="#">1</a></li>
-                                    <li className="page-item active"><a className="page-link" href="#">2</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                    <li className="page-item"><a className="page-link dot" href="#">...</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">6</a></li>
+                                    <li className="page-item"><a className="page-link" href="#">1</p></li>
+                                    <li className="page-item active"><a className="page-link" href="#">2</p></li>
+                                    <li className="page-item"><a className="page-link" href="#">3</p></li>
+                                    <li className="page-item"><a className="page-link dot" href="#">...</p></li>
+                                    <li className="page-item"><a className="page-link" href="#">6</p></li>
                                     <li className="page-item">
-                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></a>
+                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></p>
                                     </li>
                                 </ul>
                             </nav>

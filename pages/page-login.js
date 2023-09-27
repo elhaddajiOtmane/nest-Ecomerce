@@ -19,7 +19,7 @@ function Login() {
                                         <div className="padding_eight_all bg-white">
                                             <div className="heading_s1">
                                                 <h1 className="mb-5">Login</h1>
-                                                <p className="mb-30">Don't have an account? <Link href="/page-register"><a>Create here</a></Link></p>
+                                                <p className="mb-30">Don't have an account? <Link href="/page-register"><a>Create here</p></Link></p>
                                             </div>
                                             <form method="post">
                                                 <div className="form-group">
@@ -46,7 +46,7 @@ function Login() {
                                                             <label className="form-check-label" htmlFor="exampleCheckbox1"><span>Remember me</span></label>
                                                         </div>
                                                     </div>
-                                                    <a className="text-muted" href="#">Forgot password?</a>
+                                                    <a className="text-muted" href="#">Forgot password?</p>
                                                 </div>
                                                 <div className="form-group">
                                                     <button type="submit" className="btn btn-heading btn-block hover-up" name="login">Log in</button>

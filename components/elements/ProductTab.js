@@ -14,22 +14,22 @@ const ProductTab = () => {
                     <li className="nav-item">
                         <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} id="Description-tab" data-bs-toggle="tab" onClick={() => handleOnClick(1)}>
                             Description
-                        </a>
+                        </p>
                     </li>
                     <li className="nav-item">
                         <a className={activeIndex === 2 ? "nav-link active" : "nav-link"} id="Additional-info-tab" data-bs-toggle="tab" onClick={() => handleOnClick(2)}>
                             Additional info
-                        </a>
+                        </p>
                     </li>
                     <li className="nav-item">
                         <a className={activeIndex === 3 ? "nav-link active" : "nav-link"} id="Reviews-tab" data-bs-toggle="tab" onClick={() => handleOnClick(3)}>
                             Vendor
-                        </a>
+                        </p>
                     </li>
                     <li className="nav-item">
                         <a className={activeIndex === 4 ? "nav-link active" : "nav-link"} id="Reviews-tab" data-bs-toggle="tab" onClick={() => handleOnClick(4)}>
                             Reviews (3)
-                        </a>
+                        </p>
                     </li>
                 </ul>
                 <div className="tab-content shop_info_tab entry-main-content">
@@ -157,7 +157,7 @@ const ProductTab = () => {
                             <img src="/assets/imgs/vendor/vendor-18.svg" alt="" />
                             <div className="vendor-name ml-15">
                                 <h6>
-                                    <a href="vendor-details-2.html">Noodles Co.</a>
+                                    <a href="vendor-details-2.html">Noodles Co.</p>
                                 </h6>
                                 <div className="product-rate-cover text-end">
                                     <div className="product-rate d-inline-block">
@@ -205,7 +205,7 @@ const ProductTab = () => {
                                                 <div className="thumb text-center">
                                                     <img src="/assets/imgs/blog/author-2.png" alt="" />
                                                     <h6>
-                                                        <a href="#">Jacky Chan</a>
+                                                        <a href="#">Jacky Chan</p>
                                                     </h6>
                                                     <p className="font-xxs">Since 2012</p>
                                                 </div>
@@ -225,7 +225,7 @@ const ProductTab = () => {
                                                             <a href="#" className="text-brand btn-reply">
                                                                 Reply
                                                                 <i className="fi-rs-arrow-right"></i>
-                                                            </a>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -237,7 +237,7 @@ const ProductTab = () => {
                                                 <div className="thumb text-center">
                                                     <img src="/assets/imgs/blog/author-3.png" alt="" />
                                                     <h6>
-                                                        <a href="#">Ana Rosie</a>
+                                                        <a href="#">Ana Rosie</p>
                                                     </h6>
                                                     <p className="font-xxs">Since 2008</p>
                                                 </div>
@@ -257,7 +257,7 @@ const ProductTab = () => {
                                                             <a href="#" className="text-brand btn-reply">
                                                                 Reply
                                                                 <i className="fi-rs-arrow-right"></i>
-                                                            </a>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -269,7 +269,7 @@ const ProductTab = () => {
                                                 <div className="thumb text-center">
                                                     <img src="/assets/imgs/blog/author-4.png" alt="" />
                                                     <h6>
-                                                        <a href="#">Steven Keny</a>
+                                                        <a href="#">Steven Keny</p>
                                                     </h6>
                                                     <p className="font-xxs">Since 2010</p>
                                                 </div>
@@ -289,7 +289,7 @@ const ProductTab = () => {
                                                             <a href="#" className="text-brand btn-reply">
                                                                 Reply
                                                                 <i className="fi-rs-arrow-right"></i>
-                                                            </a>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -387,7 +387,7 @@ const ProductTab = () => {
                                     </div>
                                     <a href="#" className="font-xs text-muted">
                                         How are ratings calculated?
-                                    </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>

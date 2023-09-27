@@ -46,7 +46,7 @@ const ColorFilter = ({ updateProductFilters }) => {
                                     className={`product-color-${tag.value}`}
                                 ></span>
                             )}
-                        </a>
+                        </p>
                     </li>
                 ))}
             </ul>

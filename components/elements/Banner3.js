@@ -15,7 +15,7 @@ const Banner3 = () => {
                         <Link href="/products">
                             <a>
                                 Shop Now <i className="fi-rs-arrow-right"></i>
-                            </a>
+                            </p>
                         </Link>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Banner3 = () => {
                         <Link href="/products">
                             <a>
                                 Shop Now <i className="fi-rs-arrow-right"></i>
-                            </a>
+                            </p>
                         </Link>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Banner3 = () => {
                         <Link href="/products">
                             <a>
                                 Shop Now <i className="fi-rs-arrow-right"></i>
-                            </a>
+                            </p>
                         </Link>
                     </div>
                 </div>

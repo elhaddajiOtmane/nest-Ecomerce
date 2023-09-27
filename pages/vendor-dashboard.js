@@ -97,7 +97,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -108,7 +108,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -119,7 +119,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -130,7 +130,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -141,7 +141,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -152,7 +152,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -163,7 +163,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -174,7 +174,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>
                                                             <a href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                 </tbody>

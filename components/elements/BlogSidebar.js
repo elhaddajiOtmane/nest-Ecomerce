@@ -18,19 +18,19 @@ const BlogSidebar = () => {
                     <h5 className="section-title style-1 mb-30">Category</h5>
                     <ul>
                         <li>
-                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-1.svg" alt="" />Milks & Dairies</a></Link><span className="count">30</span>
+                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-1.svg" alt="" />Milks & Dairies</p></Link><span className="count">30</span>
                         </li>
                         <li>
-                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-2.svg" alt="" />Clothing</a></Link><span className="count">35</span>
+                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-2.svg" alt="" />Clothing</p></Link><span className="count">35</span>
                         </li>
                         <li>
-                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods </a></Link><span className="count">42</span>
+                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods </p></Link><span className="count">42</span>
                         </li>
                         <li>
-                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a></Link><span className="count">68</span>
+                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</p></Link><span className="count">68</span>
                         </li>
                         <li>
-                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a></Link><span className="count">87</span>
+                            <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</p></Link><span className="count">87</span>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@ const BlogSidebar = () => {
                             <img src="/assets/imgs/shop/thumbnail-3.jpg" alt="#" />
                         </div>
                         <div className="content pt-10">
-                            <h5><Link href="/shop-product-detail"><a>Chen Cardigan</a></Link></h5>
+                            <h5><Link href="/shop-product-detail"><a>Chen Cardigan</p></Link></h5>
                             <p className="price mb-0 mt-5">$99.50</p>
                             <div className="product-rate">
                                 <div className="product-rating" style={{ "width": "90%" }}></div>
@@ -54,7 +54,7 @@ const BlogSidebar = () => {
                             <img src="/assets/imgs/shop/thumbnail-4.jpg" alt="#" />
                         </div>
                         <div className="content pt-10">
-                            <h6><Link href="/products"><a>Chen Sweater</a></Link></h6>
+                            <h6><Link href="/products"><a>Chen Sweater</p></Link></h6>
                             <p className="price mb-0 mt-5">$89.50</p>
                             <div className="product-rate">
                                 <div className="product-rating" style={{ "width": "80%" }}></div>
@@ -66,7 +66,7 @@ const BlogSidebar = () => {
                             <img src="/assets/imgs/shop/thumbnail-5.jpg" alt="#" />
                         </div>
                         <div className="content pt-10">
-                            <h6><Link href="/products"><a>Colorful Jacket</a></Link></h6>
+                            <h6><Link href="/products"><a>Colorful Jacket</p></Link></h6>
                             <p className="price mb-0 mt-5">$25</p>
                             <div className="product-rate">
                                 <div className="product-rating" style={{ "width": "60%" }}></div>
@@ -78,7 +78,7 @@ const BlogSidebar = () => {
                             <img src="/assets/imgs/shop/thumbnail-6.jpg" alt="#" />
                         </div>
                         <div className="content pt-10">
-                            <h6><Link href="/products"><a>Lorem, ipsum</a></Link></h6>
+                            <h6><Link href="/products"><a>Lorem, ipsum</p></Link></h6>
                             <p className="price mb-0 mt-5">$25</p>
                             <div className="product-rate">
                                 <div className="product-rating" style={{ "width": "60%" }}></div>
@@ -91,22 +91,22 @@ const BlogSidebar = () => {
                     <div className="instagram-gellay">
                         <ul className="insta-feed">
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-1.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-1.jpg" alt="" /></p></Link>
                             </li>
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-2.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-2.jpg" alt="" /></p></Link>
                             </li>
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-3.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-3.jpg" alt="" /></p></Link>
                             </li>
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-4.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-4.jpg" alt="" /></p></Link>
                             </li>
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-5.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-5.jpg" alt="" /></p></Link>
                             </li>
                             <li>
-                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-6.jpg" alt="" /></a></Link>
+                                <Link href="#"><a><img className="border-radius-5" src="/assets/imgs/shop/thumbnail-6.jpg" alt="" /></p></Link>
                             </li>
                         </ul>
                     </div>
@@ -116,22 +116,22 @@ const BlogSidebar = () => {
                     <h5 className="section-title style-1 mb-30">Popular Tags</h5>
                     <ul className="tags-list">
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Cabbage</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Cabbage</p></Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Broccoli</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Broccoli</p></Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Smoothie</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Smoothie</p></Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Fruit</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Fruit</p></Link>
                         </li>
                         <li className="hover-up mr-0">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Salad</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Salad</p></Link>
                         </li>
                         <li className="hover-up mr-0">
-                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Appetizer</a></Link>
+                            <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Appetizer</p></Link>
                         </li>
                     </ul>
                 </div>

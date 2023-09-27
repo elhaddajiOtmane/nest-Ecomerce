@@ -32,11 +32,11 @@ function Custom404() {
                                         <Link href="/"><a>
                                             {" "}
                                             <span> Homepage</span>
-                                        </a></Link>
+                                        </p></Link>
                                         or{" "}
                                         <Link href="/page-contact"><a>
                                             <span>Contact us</span>
-                                        </a></Link>
+                                        </p></Link>
                                         about the problem
                                     </p>
                                     <div className="search-form">
@@ -56,7 +56,7 @@ function Custom404() {
                                     >
                                         <i className="fi-rs-home mr-5"></i> Back To
                                         Home Page
-                                        </a></Link>
+                                        </p></Link>
                                 </div>
                             </div>
                         </div>

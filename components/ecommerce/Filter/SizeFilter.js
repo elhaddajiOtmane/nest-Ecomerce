@@ -41,7 +41,7 @@ const SizeFilter = ({ updateProductFilters }) => {
                     >
                         <a>
                             {i == 0 ? "All" : `${tag.value}`}
-                        </a>
+                        </p>
                     </li>
                 ))}
             </ul>

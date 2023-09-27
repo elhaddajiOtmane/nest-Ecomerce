@@ -17,7 +17,7 @@ function Pagination({
                         {currentPage === 1 ? null : (
                             <a className="page-link">
                                 <i className="fi-rs-angle-double-small-left"></i>
-                            </a>
+                            </p>
                         )}
                     </li>
                 )}
@@ -33,7 +33,7 @@ function Pagination({
                                     : "page-item"
                             }
                         >
-                            <a className="page-link">{item}</a>
+                            <a className="page-link">{item}</p>
                         </li>
                     );
                 })}
@@ -43,7 +43,7 @@ function Pagination({
                         {currentPage >= pages ? null : (
                             <a className="page-link">
                                 <i className="fi-rs-angle-double-small-right"></i>
-                            </a>
+                            </p>
                         )}
                     </li>
                 )}

@@ -28,7 +28,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-1.svg" alt="" />
                                             <h4>Best Prices & Offers</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -36,7 +36,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-2.svg" alt="" />
                                             <h4>Wide Assortment</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -44,7 +44,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-3.svg" alt="" />
                                             <h4>Free Delivery</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -52,7 +52,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-4.svg" alt="" />
                                             <h4>Easy Returns</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -60,7 +60,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-5.svg" alt="" />
                                             <h4>100% Satisfaction</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -68,7 +68,7 @@ function About() {
                                             <img src="/assets/imgs/theme/icons/icon-6.svg" alt="" />
                                             <h4>Great Daily Deal</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="#">Read more</p>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ function About() {
                                         <h1 className="mb-30">Meet Our Expert Team</h1>
                                         <p className="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
                                         <p className="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
-                                        <a href="#" className="btn">View All Members</a>
+                                        <a href="#" className="btn">View All Members</p>
                                     </div>
                                     <div className="col-lg-8">
                                         <div className="row">
@@ -149,10 +149,10 @@ function About() {
                                                         <h4 className="mb-5">H. Merinda</h4>
                                                         <span>CEO & Co-Founder</span>
                                                         <div className="social-network mt-20">
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -164,10 +164,10 @@ function About() {
                                                         <h4 className="mb-5">Dilan Specter</h4>
                                                         <span>Head Engineer</span>
                                                         <div className="social-network mt-20">
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></p>
+                                                            <a href="#"><img src="/assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></p>
                                                         </div>
                                                     </div>
                                                 </div>

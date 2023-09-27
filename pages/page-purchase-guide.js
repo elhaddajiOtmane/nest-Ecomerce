@@ -15,7 +15,7 @@ function Guide() {
                                         <div className="single-header style-2">
                                             <h2>Purchase Guide</h2>
                                             <div className="entry-meta meta-1 meta-3 font-xs mt-15 mb-15">
-                                                <span className="post-by">By <a href="#">Jonh</a></span>
+                                                <span className="post-by">By <a href="#">Jonh</p></span>
                                                 <span className="post-on has-dot">9 April 2020</span>
                                                 <span className="time-reading has-dot">8 mins read</span>
                                                 <span className="hit-count has-dot">29k Views</span>

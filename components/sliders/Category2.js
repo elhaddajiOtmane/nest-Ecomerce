@@ -100,12 +100,12 @@ const CategorySlider2 = () => {
                                             src={`assets/imgs/theme/icons/${item.img}`}
                                             alt=""
                                         />
-                                    </a>
+                                    </p>
                                 </Link>
                             </figure>
                             <h6>
                                <Link href="/shop-grid-right">
-                                    <a>{item.title}</a>
+                                    <a>{item.title}</p>
                                 </Link>
                             </h6>
                             <span>26 items</span>

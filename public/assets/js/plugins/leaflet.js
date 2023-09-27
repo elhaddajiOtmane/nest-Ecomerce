@@ -7,9 +7,9 @@
 
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 maxZoom: 18,
-                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</p> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</p>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</p>',
                 id: 'mapbox/streets-v11',
                 tileSize: 512,
                 zoomOffset: -1
@@ -49,9 +49,9 @@
 
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 maxZoom: 18,
-                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</p> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</p>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</p>',
                 id: 'mapbox/light-v9',
                 tileSize: 512,
                 zoomOffset: -1
@@ -137,7 +137,7 @@
 
 
 
-            map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+            map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</p>');
 
 
             var legend = L.control({ position: 'bottomright' });
@@ -178,7 +178,7 @@
             // Layers in this pane are non-interactive and do not obscure mouse/touch events
             map.getPane('labels').style.pointerEvents = 'none';
 
-            var cartodbAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>';
+            var cartodbAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</p> contributors, &copy; <a href="https://carto.com/attribution">CARTO</p>';
 
             var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
                 attribution: cartodbAttribution
@@ -202,7 +202,7 @@
 
             // set leaflet tile layer
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</p>'
             }).addTo(leaflet);
 
 
@@ -263,7 +263,7 @@
 
             // Init Leaflet Map
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+                attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</p> contributors'
             }).addTo(leaflet);
 
             

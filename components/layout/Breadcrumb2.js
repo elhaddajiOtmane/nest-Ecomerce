@@ -16,7 +16,7 @@ const Breadcrumb2 = ({parent, sub, subChild, noBreadcrumb}) => {
                         <div className="col-xl-3">
                             <h1 className="mb-15 text-capitalize">{titlex ? titlex : "Category"}</h1>
                             <div className="breadcrumb">
-                                <Link href="/"><a rel="nofollow"><i className="fi-rs-home mr-5"></i>Home</a></Link>
+                                <Link href="/"><a rel="nofollow"><i className="fi-rs-home mr-5"></i>Home</p></Link>
                                 <span></span> Shop <span></span> {titlex}
                             </div>
                         </div>
