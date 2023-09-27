@@ -174,7 +174,7 @@ const Footer = () => {
                                                 src="/assets/imgs/theme/logo.svg"
                                                 alt="logo"
                                             />
-                                        </p>
+                                        </a>
                                         </Link>
                                         <p className="font-lg text-heading">
                                             Awesome grocery store website
@@ -229,25 +229,25 @@ const Footer = () => {
                                 <h4 className="widget-title">Company</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">About Us</p>
+                                        <a href="#">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Delivery Information</p>
+                                        <a href="#">Delivery Information</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</p>
+                                        <a href="#">Privacy Policy</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms &amp; Conditions</p>
+                                        <a href="#">Terms &amp; Conditions</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</p>
+                                        <a href="#">Contact Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Support Center</p>
+                                        <a href="#">Support Center</a>
                                     </li>
                                     <li>
-                                        <a href="#">Careers</p>
+                                        <a href="#">Careers</a>
                                     </li>
                                 </ul>
                             </div>
@@ -258,25 +258,25 @@ const Footer = () => {
                                 <h4 className="widget-title ">Account</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Sign In</p>
+                                        <a href="#">Sign In</a>
                                     </li>
                                     <li>
-                                        <a href="#">View Cart</p>
+                                        <a href="#">View Cart</a>
                                     </li>
                                     <li>
-                                        <a href="#">My Wishlist</p>
+                                        <a href="#">My Wishlist</a>
                                     </li>
                                     <li>
-                                        <a href="#">Track My Order</p>
+                                        <a href="#">Track My Order</a>
                                     </li>
                                     <li>
-                                        <a href="#">Help Ticket</p>
+                                        <a href="#">Help Ticket</a>
                                     </li>
                                     <li>
-                                        <a href="#">Shipping Details</p>
+                                        <a href="#">Shipping Details</a>
                                     </li>
                                     <li>
-                                        <a href="#">Compare products</p>
+                                        <a href="#">Compare products</a>
                                     </li>
                                 </ul>
                             </div>
@@ -287,25 +287,25 @@ const Footer = () => {
                                 <h4 className="widget-title ">Corporate</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Become a Vendor</p>
+                                        <a href="#">Become a Vendor</a>
                                     </li>
                                     <li>
-                                        <a href="#">Affiliate Program</p>
+                                        <a href="#">Affiliate Program</a>
                                     </li>
                                     <li>
-                                        <a href="#">Farm Business</p>
+                                        <a href="#">Farm Business</a>
                                     </li>
                                     <li>
-                                        <a href="#">Farm Careers</p>
+                                        <a href="#">Farm Careers</a>
                                     </li>
                                     <li>
-                                        <a href="#">Our Suppliers</p>
+                                        <a href="#">Our Suppliers</a>
                                     </li>
                                     <li>
-                                        <a href="#">Accessibility</p>
+                                        <a href="#">Accessibility</a>
                                     </li>
                                     <li>
-                                        <a href="#">Promotions</p>
+                                        <a href="#">Promotions</a>
                                     </li>
                                 </ul>
                             </div>
@@ -316,25 +316,25 @@ const Footer = () => {
                                 <h4 className="widget-title ">Popular</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Milk & Flavoured Milk</p>
+                                        <a href="#">Milk & Flavoured Milk</a>
                                     </li>
                                     <li>
-                                        <a href="#">Butter and Margarine</p>
+                                        <a href="#">Butter and Margarine</a>
                                     </li>
                                     <li>
-                                        <a href="#">Eggs Substitutes</p>
+                                        <a href="#">Eggs Substitutes</a>
                                     </li>
                                     <li>
-                                        <a href="#">Marmalades</p>
+                                        <a href="#">Marmalades</a>
                                     </li>
                                     <li>
-                                        <a href="#">Sour Cream and Dips</p>
+                                        <a href="#">Sour Cream and Dips</a>
                                     </li>
                                     <li>
-                                        <a href="#">Tea & Kombucha</p>
+                                        <a href="#">Tea & Kombucha</a>
                                     </li>
                                     <li>
-                                        <a href="#">Cheese</p>
+                                        <a href="#">Cheese</a>
                                     </li>
                                 </ul>
                             </div>
@@ -354,13 +354,13 @@ const Footer = () => {
                                             src="/assets/imgs/theme/app-store.jpg"
                                             alt=""
                                         />
-                                    </p>
+                                    </a>
                                     <a href="#" className="hover-up mb-sm-2">
                                         <img
                                             src="/assets/imgs/theme/google-play.jpg"
                                             alt=""
                                         />
-                                    </p>
+                                    </a>
                                 </div>
                                 <p className="mb-20 ">Secured Payment Gateways</p>
                                 <img
@@ -416,31 +416,31 @@ const Footer = () => {
                                         src="/assets/imgs/theme/icons/icon-facebook-white.svg"
                                         alt=""
                                     />
-                                </p>
+                                </a>
                                 <a href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-twitter-white.svg"
                                         alt=""
                                     />
-                                </p>
+                                </a>
                                 <a href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-instagram-white.svg"
                                         alt=""
                                     />
-                                </p>
+                                </a>
                                 <a href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-pinterest-white.svg"
                                         alt=""
                                     />
-                                </p>
+                                </a>
                                 <a href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-youtube-white.svg"
                                         alt=""
                                     />
-                                </p>
+                                </a>
                             </div>
                             <p className="font-sm">
                                 Up to 15% discount on your first subscribe

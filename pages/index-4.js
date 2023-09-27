@@ -35,7 +35,7 @@ function Test() {
                                     <Link href="/shop-grid-right"><a className="show-all">
                                         All Deals
                                         <i className="fi-rs-angle-right"></i>
-                                    </p></Link>
+                                    </a></Link>
                                 </div>
                                 <FeatchDeals />
                             </section>
@@ -98,7 +98,7 @@ function Test() {
                                     </div>
                                     <div className="content pt-10">
                                         <h5>
-                                            <a>Chen Cardigan</p>
+                                            <a>Chen Cardigan</a>
                                         </h5>
                                         <p className="price mb-0 mt-5">
                                             $99.50
@@ -120,7 +120,7 @@ function Test() {
                                     </div>
                                     <div className="content pt-10">
                                         <h6>
-                                            <a>Chen Sweater</p>
+                                            <a>Chen Sweater</a>
                                         </h6>
                                         <p className="price mb-0 mt-5">
                                             $89.50
@@ -142,7 +142,7 @@ function Test() {
                                     </div>
                                     <div className="content pt-10">
                                         <h6>
-                                            <a>Colorful Jacket</p>
+                                            <a>Colorful Jacket</a>
                                         </h6>
                                         <p className="price mb-0 mt-5">$25</p>
                                         <div className="product-rate">
@@ -182,7 +182,7 @@ function Test() {
                                 <Link href="/shop-grid-right"><a className="show-all">
                                     All Categories
                                     <i className="fi-rs-angle-right"></i>
-                                </p></Link>
+                                </a></Link>
                             </div>
                         </div>
                         <div className="carausel-8-columns-cover position-relative">

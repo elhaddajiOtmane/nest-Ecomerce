@@ -62,7 +62,7 @@ const Intro1 = () => {
                                 Big discount
                             </h1>
                             <p className="mb-65">
-                                Save up to 500% off on your first order
+                                Save up to 50% off on your first order
                             </p>
                             <form className="form-subcriber d-flex">
                                 <input

@@ -60,7 +60,7 @@ const Cart = ({
                                                     aria-expanded="false"
                                                 >
                                                     Click here to login
-                                                </p>
+                                                </a>
                                             </span>
                                         </div>
                                         <div
@@ -114,7 +114,7 @@ const Cart = ({
                                                         </div>
                                                         <a href="#">
                                                             Forgot password?
-                                                        </p>
+                                                        </a>
                                                     </div>
                                                     <div className="form-group">
                                                         <button
@@ -1890,7 +1890,7 @@ const Cart = ({
                                                                         {
                                                                             item.title
                                                                         }
-                                                                    </p>
+                                                                    </a>
                                                                     <div className="product-rate-cover">
                                                                         <div className="product-rate d-inline-block">
                                                                             <div
@@ -2036,7 +2036,7 @@ const Cart = ({
                                         className="btn btn-fill-out btn-block mt-30"
                                     >
                                         Place Order
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
                         </div>

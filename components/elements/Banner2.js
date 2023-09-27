@@ -17,7 +17,7 @@ const Banner2 = () => {
                     <Link href="/products">
                         <a className="btn">
                             Learn More <i className="fi-rs-arrow-right"></i>
-                        </p>
+                        </a>
                     </Link>
                 </div>
             </div>

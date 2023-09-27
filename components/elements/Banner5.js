@@ -18,7 +18,7 @@ const Banner5 = () => {
                         </h4>
                         <Link href="/products"><a className="btn btn-xs">
                             Shop Now <i className="fi-rs-arrow-small-right"></i>
-                        </p></Link>
+                        </a></Link>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Banner5 = () => {
                         </h4>
                         <Link href="/products"><a className="btn btn-xs">
                             Shop Now <i className="fi-rs-arrow-small-right"></i>
-                        </p></Link>
+                        </a></Link>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ const Banner5 = () => {
                         </h4>
                         <Link href="/products"><a className="btn btn-xs">
                             Shop Now <i className="fi-rs-arrow-small-right"></i>
-                        </p></Link>
+                        </a></Link>
                     </div>
                 </div>
             </div>

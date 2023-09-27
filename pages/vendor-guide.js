@@ -20,7 +20,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-1.svg" alt="" />
                                             <h4>Best Prices & Offers</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</p>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -28,7 +28,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-2.svg" alt="" />
                                             <h4>Wide Assortment</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</p>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -36,7 +36,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-3.svg" alt="" />
                                             <h4>Free Delivery</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</p>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                 </div>

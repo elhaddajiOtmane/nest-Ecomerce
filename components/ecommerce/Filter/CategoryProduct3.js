@@ -36,7 +36,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Milks & Dairies
-                    </p>
+                    </a>
                     
                 </li>
                 <li onClick={(e) => selectCategory(e, "shoe")}>
@@ -46,7 +46,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Clothing
-                    </p>
+                    </a>
                     
                 </li>
                 <li onClick={(e) => selectCategory(e, "jacket")}>
@@ -56,7 +56,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Pet Foods{" "}
-                    </p>
+                    </a>
                     
                 </li>
                 <li onClick={(e) => selectCategory(e, "trousers")}>
@@ -66,7 +66,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Baking material
-                    </p>
+                    </a>
                     
                 </li>
                 <li onClick={(e) => selectCategory(e, "accessories")}>
@@ -76,7 +76,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             alt=""
                         />
                         Fresh Fruit
-                    </p>
+                    </a>
                 </li>
             </ul>
         </>

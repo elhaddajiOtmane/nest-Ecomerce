@@ -46,7 +46,7 @@ const Cart = ({
                                         <a href="#" className="text-muted">
                                             <i className="fi-rs-trash mr-5"></i>
                                             Clear Cart
-                                        </p>
+                                        </a>
                                     </h6>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ const Cart = ({
                                                             <Link href="/products">
                                                                 <a>
                                                                     {item.title}
-                                                                </p>
+                                                                </a>
                                                             </Link>
                                                         </h6>
                                                         <div className="product-rate-cover">
@@ -132,7 +132,7 @@ const Cart = ({
                                                                 className="qty-down"
                                                             >
                                                                 <i className="fi-rs-angle-small-down"></i>
-                                                            </p>
+                                                            </a>
                                                             <span className="qty-val">
                                                                 {item.quantity}
                                                             </span>
@@ -145,7 +145,7 @@ const Cart = ({
                                                                 className="qty-up"
                                                             >
                                                                 <i className="fi-rs-angle-small-up"></i>
-                                                            </p>
+                                                            </a>
                                                         </div>
                                                         </div>
                                                     </td>
@@ -172,7 +172,7 @@ const Cart = ({
                                                             className="text-muted"
                                                         >
                                                             <i className="fi-rs-trash"></i>
-                                                        </p>
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             ))}
@@ -188,7 +188,7 @@ const Cart = ({
                                                         >
                                                             <i className="fi-rs-cross-small"></i>
                                                             Clear Cart
-                                                        </p>
+                                                        </a>
                                                     )}
                                                 </td>
                                             </tr>
@@ -199,7 +199,7 @@ const Cart = ({
                                     <a className="btn ">
                                         <i className="fi-rs-shopping-bag mr-10"></i>
                                         Continue Shopping
-                                    </p>
+                                    </a>
                                 </div>
                                 <div className="divider center_icon mt-50 mb-50">
                                     <i className="fi-rs-fingerprint"></i>
@@ -1097,7 +1097,7 @@ const Cart = ({
                                             <a href="#" className="btn ">
                                                 <i className="fi-rs-box-alt mr-10"></i>
                                                 Proceed To CheckOut
-                                            </p>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

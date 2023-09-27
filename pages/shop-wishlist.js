@@ -68,7 +68,7 @@ const Wishlist = ({
                                                                         {
                                                                             product.title
                                                                         }
-                                                                    </p>
+                                                                    </a>
                                                                 </h6>
                                                                 <div className="product-rate-cover">
                                                                     <div className="product-rate d-inline-block">
@@ -152,7 +152,7 @@ const Wishlist = ({
                                                                     }
                                                                 >
                                                                     <i className="fi-rs-trash"></i>
-                                                                </p>
+                                                                </a>
                                                             </td>
                                                         </tr>
                                                     )

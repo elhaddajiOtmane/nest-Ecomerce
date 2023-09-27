@@ -23,22 +23,22 @@ function Account() {
                                         <div className="dashboard-menu">
                                             <ul className="nav flex-column" role="tablist">
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Dashboard</p>
+                                                    <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Dashboard</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Orders</p>
+                                                    <a className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Orders</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</p>
+                                                    <a className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>My Address</p>
+                                                    <a className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>My Address</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Account details</p>
+                                                    <a className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Account details</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/page-login"><a className="nav-link"><i className="fi-rs-sign-out mr-10"></i>Logout</p></Link>
+                                                    <Link href="/page-login"><a className="nav-link"><i className="fi-rs-sign-out mr-10"></i>Logout</a></Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -52,8 +52,8 @@ function Account() {
                                                     </div>
                                                     <div className="card-body">
                                                         <p>
-                                                            From your account dashboard. you can easily check &amp; view your <a href="#">recent orders</p>,<br />
-                                                            manage your <a href="#">shipping and billing addresses</p> and <a href="#">edit your password and account details.</p>
+                                                            From your account dashboard. you can easily check &amp; view your <a href="#">recent orders</a>,<br />
+                                                            manage your <a href="#">shipping and billing addresses</a> and <a href="#">edit your password and account details.</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -81,21 +81,21 @@ function Account() {
                                                                         <td>March 45, 2020</td>
                                                                         <td>Processing</td>
                                                                         <td>$125.00 for 2 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</p></td>
+                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2468</td>
                                                                         <td>June 29, 2020</td>
                                                                         <td>Completed</td>
                                                                         <td>$364.00 for 5 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</p></td>
+                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2366</td>
                                                                         <td>August 02, 2020</td>
                                                                         <td>Completed</td>
                                                                         <td>$280.00 for 3 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</p></td>
+                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -142,7 +142,7 @@ function Account() {
                                                                     Sault Ste. <br />Marie, MI 49783
                                                                 </address>
                                                                 <p>New York</p>
-                                                                <a href="#" className="btn-small">Edit</p>
+                                                                <a href="#" className="btn-small">Edit</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -157,7 +157,7 @@ function Account() {
                                                                     Sarasota, <br />FL 34249 USA <br />Phone: 1.941.227.4444
                                                                 </address>
                                                                 <p>Sarasota</p>
-                                                                <a href="#" className="btn-small">Edit</p>
+                                                                <a href="#" className="btn-small">Edit</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@ function Account() {
                                                         <h5>Account Details</h5>
                                                     </div>
                                                     <div className="card-body">
-                                                        <p>Already have an account? <Link href="/page-login"><a>Log in instead!</p></Link></p>
+                                                        <p>Already have an account? <Link href="/page-login"><a>Log in instead!</a></Link></p>
                                                         <form method="post" name="enq">
                                                             <div className="row">
                                                                 <div className="form-group col-md-6">

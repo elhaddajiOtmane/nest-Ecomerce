@@ -31,12 +31,12 @@ const TopRatedSlider = () => {
                     <article className="row align-items-center hover-up" key={i}>
                     <figure className="col-md-4 mb-0">
                         <Link href="/products/[slug]"
-                            as={`/products/${product.slug}`}><a><img src={product.images[0].img} alt="" /></p></Link>
+                            as={`/products/${product.slug}`}><a><img src={product.images[0].img} alt="" /></a></Link>
                     </figure>
                     <div className="col-md-8 mb-0">
                         <h6>
                             <Link href="/products/[slug]"
-                                as={`/products/${product.slug}`}><a>{product.title}</p></Link>
+                                as={`/products/${product.slug}`}><a>{product.title}</a></Link>
                         </h6>
                         <div className="product-rate-cover">
                             <div className="product-rate d-inline-block">

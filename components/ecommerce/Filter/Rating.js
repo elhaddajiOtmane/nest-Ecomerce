@@ -75,7 +75,7 @@ const Rating = ({ updateProductRating }) => {
                                     </div>
                                 </>
                             )}
-                        </p>
+                        </a>
                     </div>
                 </>
             ))}
