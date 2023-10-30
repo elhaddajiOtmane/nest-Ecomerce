@@ -1039,7 +1039,6 @@ button.submit, button[type='submit'] {
   font-weight: 500;
   padding: 15px 40px;
   color: #ffffff;
-  border: none;
   background-color: #3BB77E;
   border: 1px solid #29A56C;
   border-radius: 10px;
@@ -1054,7 +1053,7 @@ button.submit:hover, button[type='submit']:hover {
 }
 
 .btn-login {
-  font-weight: 13px;
+  font-weight: 400;
 }
 
 .btn-login .btn {

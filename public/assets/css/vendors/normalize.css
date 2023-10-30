@@ -307,7 +307,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  font-family: inherit; /* 2 */
 }
 
 /* Interactive
