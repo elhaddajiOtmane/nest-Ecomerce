@@ -3,5 +3,9 @@
         "activityBar.background": "#183401",
         "titleBar.activeBackground": "#224901",
         "titleBar.activeForeground": "#F0FEE4"
+    },
+    "sonarlint.connectedMode.project": {
+        "connectionId": "vscode",
+        "projectKey": "elhaddajiOtmane_nest-Ecomerce"
     }
 }
