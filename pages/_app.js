@@ -1,42 +1,53 @@
 import { useEffect, useState } from "react";
-// import "react-input-range/lib/css/index.css";
+import { useRouter } from 'next/router'; // Import useRouter
 import "react-perfect-scrollbar/dist/css/styles.css";
 import { Provider } from "react-redux";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import "slick-carousel/slick/slick-theme.css";
-// import "slick-carousel/slick/slick.css";
 import "react-responsive-modal/styles.css";
-// import WOW from 'wowjs';
-// Swiper Slider
 import "swiper/css";
 import "swiper/css/navigation";
 import StorageWrapper from "../components/ecommerce/storage-wrapper";
 import "../public/assets/css/main.css";
 import store from "../redux/store";
 import Preloader from "./../components/elements/Preloader";
+import Hotjar from '@hotjar/browser'; // Import Hotjar
 
+const siteId = 5044480; // Replace with your actual Hotjar site ID
+const hotjarVersion = 6;
 
 function MyApp({ Component, pageProps }) {
     const [loading, setLoading] = useState(false);
+    const router = useRouter(); // Initialize useRouter
+
     useEffect(() => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
         }, 2000);
 
-        // new WOW.WOW({
-        //     live: false
-        //   }).init()
-    }, []);
+        if (typeof window !== 'undefined') {
+            Hotjar.init(siteId, hotjarVersion); // Initialize Hotjar
+        }
+
+        // If you need to track route changes
+        const handleRouteChange = (url) => {
+            Hotjar.stateChange(url);
+        };
+
+        router.events.on('routeChangeComplete', handleRouteChange);
+        return () => {
+            router.events.off('routeChangeComplete', handleRouteChange);
+        };
+    }, [router.events]);
+
     return (
         <>
             {!loading ? (
                 <Provider store={store}>
                     <StorageWrapper>
-                       
-                            <Component {...pageProps} />
-                            <ToastContainer />
+                        <Component {...pageProps} />
+                        <ToastContainer />
                     </StorageWrapper>
                 </Provider>
             ) : (
