@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:24.13.0-alpine3.23
 ENV NODE_ENV=production
 WORKDIR /usr/src/app
 COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
